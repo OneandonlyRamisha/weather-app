@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 
 export default function Home() {
-  const [city, setCity] = useState("Dubai");
+  const [city, setCity] = useState("");
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
